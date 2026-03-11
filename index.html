@@ -1,1 +1,191 @@
-halo
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portofolio Saya</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#6a11cb,#2575fc);
+    color:white;
+}
+
+/* Navbar */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+    background:rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+}
+
+nav h1{
+    font-size:24px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#ffd369;
+}
+
+/* Hero */
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h2{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    opacity:0.9;
+}
+
+/* Section */
+section{
+    padding:60px 10%;
+}
+
+.card{
+    background:rgba(255,255,255,0.1);
+    padding:25px;
+    border-radius:15px;
+    margin-top:20px;
+    backdrop-filter: blur(10px);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+/* Skill */
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    background:#ffd369;
+    color:black;
+    padding:8px 15px;
+    border-radius:20px;
+    font-size:14px;
+}
+
+/* Kontak */
+.contact p{
+    margin:8px 0;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+    background:rgba(0,0,0,0.2);
+    margin-top:40px;
+}
+</style>
+
+</head>
+<body>
+
+<nav>
+<h1>MyPorto</h1>
+<ul>
+<li><a href="#about">Tentang Saya</a></li>
+<li><a href="#education">Pendidikan</a></li>
+<li><a href="#skills">Keahlian</a></li>
+<li><a href="#experience">Pengalaman</a></li>
+<li><a href="#contact">Kontak</a></li>
+</ul>
+</nav>
+
+<div class="hero">
+<h2>Halo 👋 Saya [Nama Kamu]</h2>
+<p>Siswa SMA | Belajar Web Development | Kreatif & Aktif</p>
+</div>
+
+<section id="about">
+<h2>Tentang Saya</h2>
+<div class="card">
+<p>
+Saya adalah seorang siswa SMA yang tertarik pada dunia teknologi,
+desain, dan pengembangan website. Saya suka belajar hal baru,
+berkolaborasi dengan teman, dan membuat proyek kreatif.
+</p>
+</div>
+</section>
+
+<section id="education">
+<h2>Pendidikan</h2>
+<div class="card">
+<p><b>SMA Negeri Contoh</b> (2023 - Sekarang)</p>
+<p>Jurusan IPA / RPL</p>
+</div>
+</section>
+
+<section id="skills">
+<h2>Keahlian</h2>
+<div class="card skills">
+<span class="skill">HTML</span>
+<span class="skill">CSS</span>
+<span class="skill">Canva</span>
+<span class="skill">Editing Video</span>
+<span class="skill">Public Speaking</span>
+</div>
+</section>
+
+<section id="experience">
+<h2>Pengalaman</h2>
+<div class="card">
+<ul>
+<li>Membuat website sederhana menggunakan HTML & CSS</li>
+<li>Anggota OSIS bidang media</li>
+<li>Mengelola akun media sosial sekolah</li>
+</ul>
+</div>
+</section>
+
+<section id="contact">
+<h2>Kontak</h2>
+<div class="card contact">
+<p>📧 Email: emailkamu@gmail.com</p>
+<p>📱 Instagram: @usernamekamu</p>
+<p>💬 WhatsApp: 08xxxxxxxxxx</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Portofolio Saya</p>
+</footer>
+
+</body>
+</html>
